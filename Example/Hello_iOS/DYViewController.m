@@ -7,6 +7,7 @@
 //
 
 #import "DYViewController.h"
+#import <HelloViewController.h>
 
 @interface DYViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self presentViewController:[HelloViewController new] animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning

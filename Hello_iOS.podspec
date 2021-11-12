@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Hello_iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Hello_iOS.'
+  s.summary          = 'Hello_iOS TEST.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,4 +39,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'AFNetworking', '~> 4.0.1'
+  s.dependency 'YTKNetwork', '~> 3.0.4'
+  s.dependency 'MJRefresh', '~> 3.5.0'
+  s.dependency 'SVProgressHUD'
 end
